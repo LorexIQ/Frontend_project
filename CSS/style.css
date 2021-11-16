@@ -53,7 +53,6 @@ a {
 	width: 1920px;
 	height: 274px;
     background-color: #1e8ce6;
-    position: absolute;
 }
 .page-company ul {
     display: table;
@@ -62,9 +61,8 @@ a {
 .page-company li {
     margin: 0px;
     display: inline;
-    position: relative;
-    margin: 500px 10;
     margin-right: 80px;
+    background-color: #1e8ce6;
 }
 
 
