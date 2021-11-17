@@ -14,16 +14,16 @@ a {
     font-weight: 600;
     color: #192b59;
 }
-.page-header div:last-child {
+.page-header .links {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.page-header div:last-child a:first-child {
+.page-header .links a:first-child {
     color: #ffffff;
     background-color: #1085e4;
 }
-.page-header div:last-child a:last-child {
+.page-header .links a:last-child {
     color: #7e8bae;
     background-color: #cbdbe8;
 }
@@ -53,48 +53,55 @@ a {
 	width: 1920px;
 	height: 274px;
     background-color: #1e8ce6;
+    position: absolute;
 }
 .page-company ul {
-    display: table;
-    margin: auto;
+    left: 50%;
+    margin-left: -550px;
+    position: absolute;
+    width: 1500px;
+    margin-top: 90px;
+    
 }
 .page-company li {
     margin: 0px;
     display: inline;
     margin-right: 80px;
-    background-color: #1e8ce6;
 }
 
 
-.grid h2 {
+.page-grid {
+    margin-top: 210px;
+}
+.page-grid .grid h2 {
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
     text-transform: capitalize;
 }
-.grid h2 span {
+.page-grid .grid h2 span {
     font-size: 14px;
     font-weight: 800;
     color: #1085e4;
     text-transform: uppercase;
     display: block;
 }
-.grid_elem h3 {
+.page-grid .grid_elem h3 {
     font-weight: 600;
     font-size: 20px;
     color: #192b59;
 }
-.grid_elem a {
+.page-grid .grid_elem a {
     color: #1085e4;
     font-size: 14px;
     font-weight: 600;
 }
-.grid div:last-child p:last-child {
+.page-grid .grid div:last-child p:last-child {
     font-weight: 400;
     color: #1085e4;
     font-size: 14px;
 }
-.grid div:last-child p:last-child span{
+.page-grid .grid div:last-child p:last-child span{
     font-weight: 700;
     color: #192b59;
     font-size: 16px;
