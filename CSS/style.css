@@ -8,6 +8,31 @@ a {
     text-decoration: none;
 }
 
+.btn {
+	color: #fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 38px;
+    border-radius: 30px;
+    letter-spacing: 2.45px;
+    border: 2px solid #1085e4;
+}
+.btn:hover {
+    color: #1085e4;
+    background-color: #fff;
+}
+.btn-sec {
+	color: #8693b4;
+    background-color: #cbdbe8;
+    margin-left: 18px;
+    border: 2px solid #cbdbe8;
+}
+.btn-sec:hover {
+    color: #8693b4;
+    background-color: #fff;
+}
 
 .page-header h1 {
     font-size: 80px;
@@ -18,14 +43,6 @@ a {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-}
-.page-header .links a:first-child {
-    color: #ffffff;
-    background-color: #1085e4;
-}
-.page-header .links a:last-child {
-    color: #7e8bae;
-    background-color: #cbdbe8;
 }
 .page-header .menu {
     font-size: 12px;
@@ -39,12 +56,10 @@ a {
     margin-right: 40px;
     display: inline;
 }
-.page-header .free_trial {
-    font-size: 12px;
+.page-header .free_trail {
     font-weight: 400;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #1085e4;
+    padding: 21px 55px;
+    letter-spacing: 1.55px;
 }
 
 
@@ -130,6 +145,11 @@ a {
     color: #00bffe;
     display: block;
 }
+.page-subscribe .btn-sub {
+    padding: 13px 42px;
+    letter-spacing: 2.85px;
+    font-size: 14px;
+}
 
 
 .page-software h2, .page-state h2{
@@ -188,21 +208,10 @@ a {
     list-style-type: none;
     display: inline;
 }
-.page-possibility-1 button, .page-possibility-2 button {
-	width: 230px;
-	height: 60px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	background-color: #1085e4;
-    border-width: 0px;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
+.page-possibility-2 .btn-lrn {
+    padding: 20px 62px;
+}
 
 .page-details h2{
     font-size: 40px;
@@ -275,20 +284,6 @@ a {
     color: #8085b1;
     list-style-type: none;
 }
-.page-plans .box-plans .inactive button {
-    width: 238px;
-	height: 60px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	background-color: #f5faff;
-	border: solid 2px rgba(0,0,0,.1);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #8085b1;
-}
 
 .page-plans .box-plans div:nth-child(2) h3 {
     font-weight: 700;
@@ -314,17 +309,6 @@ a {
     color: #fff;
     list-style-type: none;
 }
-.page-plans .box-plans div:nth-child(2) button {
-    width: 238px;
-	height: 60px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	background-color: #1a88e1;
-    border: 0;
-    color: #ffffff;
-    
-}
 .page-plans .box-plans div:last-child h3 {
     font-weight: 700;
     font-size: 70px;
@@ -335,6 +319,14 @@ a {
 .page-plans .box-plans div:last-child h3 span:last-child {
     font-size: 20px;
     color: #7b8ab2;
+}
+.page-plans .btn-info {
+    padding: 20px 61px;
+}
+.page-plans .btn-inct {
+    color: #8085b1;
+    background: transparent;
+    border: 2px solid #dce1e5;
 }
 
 
