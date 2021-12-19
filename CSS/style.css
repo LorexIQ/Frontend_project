@@ -49,14 +49,17 @@ a {
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
-    display: table;
+    display: flex;
+    justify-content: center;
     margin: auto;
 }
 .page-header .menu li {
-    margin-right: 40px;
-    display: inline;
+    margin-right: 39px;
+    list-style-type: none;
+    letter-spacing: 2.4px;
 }
 .page-header .free_trail {
+    margin-left: -4px;
     font-weight: 400;
     padding: 21px 55px;
     letter-spacing: 1.55px;
