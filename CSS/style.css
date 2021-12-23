@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 .wrap {
-    max-width: 1100px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 .title-h2 {
@@ -26,6 +26,13 @@ a {
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.logo {
+    display: block;
+    background-image: url(../Layout/logo.png);
+    width: 181px;
+    height: 49px;
 }
 
 .btn {
@@ -54,6 +61,23 @@ a {
     background-color: #fff;
 }
 
+.page-header {
+    background-image: url(../Layout/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 332px 0;
+    position: relative;
+}
+.page-header .image_hed {
+    display: block;
+    background-image: url(../Layout/bg.png);
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 740px;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
 .page-header h1 {
     max-width: 540px;
     line-height: 90px;
@@ -67,16 +91,23 @@ a {
     font-weight: 700;
     text-transform: uppercase;
 }
+.page-header .wrap div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    margin-bottom: 305px;
+}
 .page-header .menu {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0;
 }
 .page-header .menu li {
-    margin-right: 39px;
+    margin-left: 39px;
     list-style-type: none;
     letter-spacing: 2.4px;
 }
@@ -92,27 +123,44 @@ a {
 
 
 .page-company {
-    position: relative;
-}
-.page-company .company_img {
-    width: 100%;
-    position: absolute;
-	width: 1920px;
-	height: 274px;
     background-color: #1e8ce6;
+    background-image: url(../Layout/layer_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 274px;
 }
 .page-company ul {
-    left: 50%;
-    margin-left: -560px;
-    position: absolute;
-    width: 1500px;
-    margin-top: 100px;
-    
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 106px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.page-company li {
-    margin: 0px;
-    display: inline;
-    margin-right: 80px;
+.page-company ul li {
+    display: block;
+    flex-basis: 18%;
+    background-repeat: no-repeat;
+}
+.page-company ul li:nth-child(1) {
+    background-image: url(../Layout/company_1.png);
+    height: 58px;
+    width: 198px;
+}
+.page-company ul li:nth-child(2) {
+    background-image: url(../Layout/company_2.png);
+    height: 69px;
+    width: 200px;
+}
+.page-company ul li:nth-child(3) {
+    background-image: url(../Layout/company_3.png);
+    height: 47px;
+    width: 201px;
+}
+.page-company ul li:nth-child(4) {
+    background-image: url(../Layout/company_4.png);
+    height: 69px;
+    width: 200px;
 }
 
 
@@ -154,17 +202,23 @@ a {
 }
 
 
-.page-subscribe img:first-child {
-    position: absolute;
-    max-height: 100%;
+.page-subscribe {
+    width: 100%;
+	height: 521px;
+	background-image: linear-gradient(-30deg, #0a2090, #2377cd);
 }
-.page-subscribe div {
-    position: relative;
+.page-subscribe .wrap {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 .page-subscribe h3 {
     font-weight: 600;
     font-size: 50px;
     color: #ffffff;
+    letter-spacing: -1.6px;
+    margin: 0;
 }
 .page-subscribe h3 span {
     font-weight: 800;
@@ -172,6 +226,27 @@ a {
     text-transform: uppercase;
     color: #00bffe;
     display: block;
+    letter-spacing: 2.9px;
+    padding-bottom: 31px;
+}
+.page-subscribe p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dfe8ff;
+    padding-top: 45px;
+    margin: 0;
+    width: 410px;
+    line-height: 27px;
+}
+.page-subscribe .robot {
+    background-image: url(../Layout/robot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 417px;
+}
+.page-subscribe input {
+    padding: 0;
 }
 .page-subscribe .btn-sub {
     padding: 13px 42px;
