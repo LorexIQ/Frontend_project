@@ -7,6 +7,26 @@ body {
 a {
     text-decoration: none;
 }
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.title-h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+.title-h2 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color:#1085e4;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 
 .btn {
 	color: #fff;
@@ -35,9 +55,12 @@ a {
 }
 
 .page-header h1 {
+    max-width: 540px;
+    line-height: 90px;
     font-size: 80px;
     font-weight: 600;
     color: #192b59;
+    letter-spacing: -2.3px;
 }
 .page-header .links {
     font-size: 12px;
@@ -47,7 +70,6 @@ a {
 .page-header .menu {
     font-size: 12px;
     font-weight: 700;
-    color: #6e7ea9;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -57,6 +79,9 @@ a {
     margin-right: 39px;
     list-style-type: none;
     letter-spacing: 2.4px;
+}
+.page-header .menu .menu-item {
+    color: #6e7ea9;
 }
 .page-header .free_trail {
     margin-left: -4px;
@@ -170,6 +195,10 @@ a {
     font-size: 14px;
 }
 
+.page-state {
+    background-color: #edf6ff;
+    padding: 115px 0px 95px 0px;
+}
 .page-state h2 span {
     font-size: 16px;
     font-weight: 800;
@@ -193,7 +222,32 @@ a {
     display: block;
     line-height: 50px;
 }
-
+.page-state .list-state {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.page-state .list-state li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+.page-state .list-state li span {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+.page-state .title-h2 {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
 
 .page-app h2, .page-possibility-1 h2, .page-possibility-2 h2 {
     font-size: 50px;
@@ -216,6 +270,24 @@ a {
     padding: 20px 62px;
 }
 
+.page-details {
+    background-color: #edf6ff;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+.page-details .title-h2 {
+    font-size: 40px;
+    letter-spacing: -1.1px;
+}
+.page-details .title-h2 span {
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+.page-details img:last-child {
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
 .page-details h2{
     font-size: 40px;
     font-weight: 600;
@@ -257,6 +329,74 @@ a {
     display: block;
 }
 
+
+.page-plans {
+    text-align: center;
+}
+.page-plans .box-plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.page-plans .box-plans>div {
+    background-color: #f5faff;
+    flex-basis: 32%;
+    padding: 90px 0 96px 0;
+    position: relative;
+}
+
+.page-plans .box-plans>div h3 {
+    color: #000958;
+    font-size: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.page-plans .box-plans>div h3 span {
+    font-size: 20px;
+}
+.page-plans .box-plans>div p {
+    font-size: 14px;
+    color: #0084ff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.page-plans .box-plans>div h3 span:first-child {
+    color: #000958;
+}
+.page-plans .box-plans>div h3 span:first-child {
+    color: #fff;
+}
+.page-plans .box-plans>div h3 span:last-child {
+    color: #7b8ab2;
+}
+.page-plans .box-plans>div:nth-child(2) {
+    background-color: #152b59;
+    color: #fff;
+}
+.page-plans .box-plans>div ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 34px;
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+.page-plans .box-plans>div ul>li {
+    margin-bottom: 14px;
+}
+.page-plans .box-plans>div::after {
+    content: "";
+    width: 58px;
+    height: 100%;
+    background-image: url(../Layout/bg_plans.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.page-plans .box-plans>div:nth-child(2)::after {
+    display: none;
+}
 
 .page-plans h2 {
     font-weight: 600;
