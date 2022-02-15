@@ -300,7 +300,32 @@ a {
 .page-subscribe {
     width: 100%;
 	height: 521px;
-	background-image: linear-gradient(-30deg, #0a2090, #2377cd);
+    background-color: #12224b;
+    background-image: -webkit-linear-gradient(-270deg, #0a2090, #2377cd);
+	background-image: -moz-linear-gradient(-270deg, #0a2090, #2377cd);
+	background-image: -o-linear-gradient(-270deg, #0a2090, #2377cd);
+	background-image: -ms-linear-gradient(-270deg, #0a2090, #2377cd);
+	background-image: linear-gradient(-270deg, #0a2090, #2377cd);
+}
+.page-subscribe .subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-subscribe .user-box input::-webkit-input-placeholder {
+    color: #b1c3ee;
+}
+.page-subscribe .user-box input::-moz-placeholder {
+    color: #b1c3ee;
+}
+.page-subscribe .user-box input:-moz-placeholder {
+    color: #b1c3ee;
+}
+.page-subscribe .user-box input:-ms-input-placeholder {
+    color: #b1c3ee;
+}
+.page-subscribe .user-box input:focus {
+    outline: none;
 }
 .page-subscribe .wrap {
     display: flex;
@@ -313,7 +338,7 @@ a {
     font-size: 50px;
     color: #ffffff;
     letter-spacing: -1.6px;
-    margin: 0;
+    margin: 0 0 45px 0;;
 }
 .page-subscribe h3 span {
     font-weight: 800;
@@ -322,16 +347,16 @@ a {
     color: #00bffe;
     display: block;
     letter-spacing: 2.9px;
-    padding-bottom: 31px;
+    margin-bottom: 30px;
 }
 .page-subscribe p {
     font-size: 18px;
     font-weight: 400;
     color: #dfe8ff;
-    padding-top: 45px;
     margin: 0;
     width: 410px;
     line-height: 27px;
+    margin-bottom: 37px;
 }
 .page-subscribe .robot {
     background-image: url(../Layout/robot.png);
@@ -340,13 +365,31 @@ a {
     width: 354px;
     height: 417px;
 }
-.page-subscribe input {
-    padding: 0;
+.page-subscribe .subscribe-basis {
+    flex-basis: 49%;
+}
+.page-subscribe .user-box {
+    position: relative;
+}
+.page-subscribe .user-box input {
+    color: #fff;
+    border: 2px solid #3f5cb1;
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 25px 240px 25px 38px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
 }
 .page-subscribe .btn-sub {
-    padding: 13px 42px;
+    position: absolute;
     letter-spacing: 2.85px;
     font-size: 14px;
+    padding: 11px 43px;
+    top: 9px;
+    right: 9px;
 }
 
 
