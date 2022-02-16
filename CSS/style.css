@@ -9,6 +9,7 @@ a {
 }
 .wrap {
     max-width: 1110px;
+    max-height: 675px;
     margin: 0 auto;
 }
 .title-h2 {
@@ -68,15 +69,16 @@ a {
     padding: 0 0 332px 0;
     position: relative;
 }
+
 .page-header .image_hed {
     display: block;
     background-image: url(../Layout/bg.png);
     background-repeat: no-repeat;
+    position: relative;
     width: 895px;
     height: 740px;
-    position: absolute;
-    top: 200px;
-    right: 0px;
+    left: 620px;
+    top: -490px;
 }
 .page-header h1 {
     max-width: 540px;
@@ -85,18 +87,20 @@ a {
     font-weight: 600;
     color: #192b59;
     letter-spacing: -2.3px;
+    margin: 0 0 65px -4px;
 }
 .page-header .links {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-left: 1px;
 }
 .page-header .wrap div:first-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 55px;
-    margin-bottom: 305px;
+    margin-bottom: 303px;
 }
 .page-header .menu {
     font-size: 12px;
@@ -166,7 +170,7 @@ a {
 
 .page-grid {
     margin-top: 117px;
-    margin-bottom: 119px;
+    margin-bottom: 475px;
 }
 .grid {
     display: grid;
