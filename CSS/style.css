@@ -429,7 +429,6 @@ a {
 .wrap-soft dl::-webkit-scrollbar-thumb {
     background-color: #1085e4;
     border-radius: 5px;
-    transition: 0.3s;
 }
 
 .wrap-soft dl::-webkit-scrollbar-thumb:hover {
@@ -668,35 +667,82 @@ a {
     display: block;
 }
 
-.page-clients p {
-    font-size: 14px;
-}
-
-.page-clients div p:nth-child(2) {
-    font-weight: 600;
-    font-size: 22px;
-    color: #000958;
-}
-
-.page-clients div p:last-child {
-    font-weight: 700;
-    font-size: 14px;
-    color: #1085e4;
-    text-transform: uppercase;
+.page-clients {
+    background-image: url(../Layout/page-client-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top left calc(50% - 105px);
+    margin-top: 122px;
+    margin-bottom: 115px;
 }
 
 .page-clients h2 {
-    font-weight: 600;
     font-size: 40px;
+    font-weight: 600;
     color: #fff;
+    letter-spacing: -1.2px;
+    padding-top: 75px;
+    margin: 0 0 33px -1px;
 }
 
 .page-clients h2 span {
-    font-weight: 800;
+    text-transform: uppercase;
     font-size: 18px;
     color: #85c8ff;
-    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3.5px;
     display: block;
+    padding-bottom: 26px;
+}
+
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}
+
+.box-clients .photo {
+    background-image: url(../Layout/page-client-avatar.png);
+    background-repeat: no-repeat;
+    width: 53px;
+    height: 52px;
+    border-radius: 30px;
+    box-shadow: 0px 19px 15px -15px #000;
+}
+
+.box-clients>div {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 350px;
+    height: 222px;
+    box-shadow: 0px 6px 6px 0px #eee;
+}
+
+.box-clients .label {
+    font-size: 14px;
+    padding: 19px 40px 0 40px;
+    line-height: 24px;
+}
+
+.box-clients .contact {
+    display: flex;
+    padding: 12px 0 0 39px;
+}
+
+.box-clients .name {
+    margin: 2px 0 0 17px;
+    letter-spacing: -0.7px;
+    font-size: 22px;
+    color: #000958;
+    font-weight: 600;
+}
+
+.box-clients .position {
+    margin: -2px 0 0 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    color: #1085e4;
 }
 
 .page-plans {
