@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: url(../fonts/BrandsRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -1028,31 +1038,142 @@ a {
     border: 2px solid #dce1e5;
 }
 
-.page-team h2 {
+.page-team .title-h2-40 {
     font-size: 40px;
     font-weight: 600;
     color: #fff;
+    line-height: 1.2;
+    letter-spacing: -1.1px;
+    padding: 115px 0 140px;
+    margin: 120px 0 0 0;
 }
 
-.page-team h2 span {
+.page-team .title-h2-40 span {
+    display: block;
     font-size: 18px;
     font-weight: 800;
     color: #85c8ff;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    display: block;
+    letter-spacing: 3.5px;
 }
 
-.page-team div p:first-child {
+.page-team {
+    text-align: center;
+    background: url(../Layout/team-bg.png) center -100px/cover no-repeat;
+}
+
+.page-team .box-team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.page-team .box-team-item {
+    background-color: #fff;
+    box-shadow: 0px 10px 10px -2px #f4f4f4;
+    position: relative;
+    padding: 190px 0 27px 0;
+    width: 350px;
+}
+
+.page-team .box-team-item .position {
     font-size: 14px;
-    font-weight: 800;
-    color: #1a88e1;
     text-transform: uppercase;
+    color: #1a88e1;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin: 17px 0 0 0;
 }
 
-.page-team div p:last-child {
+.page-team .box-team-item .name {
     font-size: 26px;
-    font-weight: 600;
     color: #192b59;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    margin: 8px 0 30px 0;
+}
+
+.page-team .box-team .avatar {
+    position: absolute;
+    top: -85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.page-team .scrol-list {
+    display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.page-team .scrol-list>a {
+    padding: 0 5px;
+}
+
+.page-team .scrol-list:hover {
+    width: 240px;
+}
+
+.page-team .scrol-list:hover .button-1 p {
+    color: #fff;
+    background-color: #1a88e1;
+    box-shadow: 0px 5px 5px #00000033;
+}
+
+.page-team .scrol-list:hover .button-1 p span::after {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 14px;
+    content: '\f39e';
+    padding-right: -1px;
+}
+
+.page-team .button-main p {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fafafa;
+    color: #9ea6b1;
+    border: none;
+    margin: 0;
+    font-family: "Font Awesome 5 Brands";
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-team .button-1 p {
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+
+.page-team .button-1 p span::after {
+    font-family: 'Poppins';
+    font-size: 30px;
+    content: '+';
+}
+
+.page-team .button-2 p span::after {
+    content: '\f099';
+}
+
+.page-team .button-3 p span::after {
+    content: '\f1b4';
+}
+
+.page-team .button-4 p span::after {
+    content: '\f268';
+}
+
+.page-team .box-team-item .button-main:focus {
+    outline: none;
 }
 
 .page-form h2 {
