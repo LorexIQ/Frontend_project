@@ -249,7 +249,7 @@ a {
 .page-grid .grid_elem p {
     width: 270px;
     margin: 17px auto;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     padding: 1px 0 0 10px;
 }
 
@@ -257,7 +257,7 @@ a {
     color: #1085e4;
     font-size: 14px;
     font-weight: 600;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .page-grid .last_title p:first-child {
@@ -368,7 +368,7 @@ a {
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
-    box-shadow: 0px 10px 8px 0px #1085e436;
+    box-shadow: 0 10px 8px 0 #1085e436;
     border-radius: 6px;
 }
 
@@ -423,7 +423,7 @@ a {
 }
 
 .wrap-soft h2 {
-    margin: 30px 0px 0 -3px;
+    margin: 30px 0 0 -3px;
     letter-spacing: -1px;
     line-height: 60px;
     width: 90%;
@@ -560,7 +560,7 @@ a {
 
 .page-state {
     background-color: #edf6ff;
-    padding: 115px 0px 95px 0px;
+    padding: 115px 0 95px 0;
 }
 
 .page-state h2 span {
@@ -612,13 +612,13 @@ a {
     font-weight: 700;
     color: #bacbdc;
     margin-bottom: 20px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .page-state .title-h2 {
     text-align: center;
     max-width: 500px;
-    margin: 0px auto 73px;
+    margin: 0 auto 73px;
 }
 
 .page-app {
@@ -658,7 +658,7 @@ a {
 }
 
 .page-app p {
-    margin: 36px 0 27px 0px;
+    margin: 36px 0 27px 0;
 }
 
 .page-app h2 {
@@ -705,7 +705,7 @@ a {
 }
 
 .page-possibility-1 h2 {
-    margin: 32px 0 0px;
+    margin: 32px 0 0;
 }
 
 .page-possibility-1 p {
@@ -832,7 +832,7 @@ a {
     width: 53px;
     height: 52px;
     border-radius: 30px;
-    box-shadow: 0px 19px 15px -15px #000;
+    box-shadow: 0 19px 15px -15px #000;
 }
 
 .box-clients>div {
@@ -840,7 +840,7 @@ a {
     background-color: #fff;
     width: 350px;
     height: 222px;
-    box-shadow: 0px 6px 6px 0px #eee;
+    box-shadow: 0 6px 6px 0 #eee;
 }
 
 .box-clients .label {
@@ -878,7 +878,7 @@ a {
 .page-plans .box-plans {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 92px;
 }
 
 .page-plans .box-plans>div {
@@ -893,7 +893,7 @@ a {
     font-size: 70px;
     letter-spacing: -1px;
     margin-bottom: 15px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .page-plans .box-plans>div h3 span {
@@ -926,7 +926,7 @@ a {
 
 .page-plans .box-plans>div ul {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
     margin-top: 34px;
     margin-bottom: 60px;
     font-size: 14px;
@@ -954,6 +954,7 @@ a {
 .page-plans h2 {
     font-weight: 600;
     font-size: 40px;
+    letter-spacing: -1px;
     color: #192b59;
 }
 
@@ -961,6 +962,8 @@ a {
     font-weight: 800;
     font-size: 18px;
     color: #1085e4;
+    padding-bottom: 26px;
+    letter-spacing: 3.2px;
     text-transform: uppercase;
     display: block;
 }
@@ -1071,7 +1074,7 @@ a {
 
 .page-team .box-team-item {
     background-color: #fff;
-    box-shadow: 0px 10px 10px -2px #f4f4f4;
+    box-shadow: 0 10px 10px -2px #f4f4f4;
     position: relative;
     padding: 190px 0 27px 0;
     width: 350px;
@@ -1124,11 +1127,11 @@ a {
 .page-team .scrol-list:hover .button-1 p {
     color: #fff;
     background-color: #1a88e1;
-    box-shadow: 0px 5px 5px #00000033;
+    box-shadow: 0 5px 5px #00000033;
 }
 
 .page-team .scrol-list:hover .button-1 p span::after {
-    font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 5 Brands", serif;
     font-size: 14px;
     content: '\f39e';
     padding-right: -1px;
@@ -1142,7 +1145,7 @@ a {
     color: #9ea6b1;
     border: none;
     margin: 0;
-    font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 5 Brands", serif;
     font-size: 14px;
     display: flex;
     justify-content: center;
@@ -1155,7 +1158,7 @@ a {
 }
 
 .page-team .button-1 p span::after {
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-size: 30px;
     content: '+';
 }
@@ -1176,43 +1179,80 @@ a {
     outline: none;
 }
 
+.page-form {
+    margin-top: 120px;
+    padding-bottom: 120px;
+
+    background: calc(50% - 343px) 221px/460px 403px url('../Layout/sloi_8.png') no-repeat,
+    calc(50% - 550px) 271px/670px 949px url('../Layout/rectangle_1_2.png') no-repeat,
+    calc(50% - 492px) 40px/785px 961px url('../Layout/rectangle_1.png') no-repeat,
+    #edf6ff;
+}
+
+.page-form>.wrap>div{
+    width: 514px;
+    margin: 111px 94px 0 -3px;
+}
+
+.page-form>.wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .page-form h2 {
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
+    letter-spacing: -1.5px;
+    line-height: 60px;
+    margin: 0 0 49px 0;
+}
+
+.page-form form {
+    margin-left: 3px;
 }
 
 .page-form form input {
-    width: 514px;
-    height: 70px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
+    width: 440px;
+    height: 66px;
+    padding: 0 60px 0 10px;
+    margin-bottom: 20px;
     border-radius: 35px;
     background-color: #fff;
-    border: solid 2px rgba(72, 72, 72, .1);
+    border: solid 2px #dce4ec;
     text-indent: 30px;
+    font-weight: 400;
+    font-size: 14px;
     display: block;
 }
 
+.page-form form i {
+    float: right;
+    margin-right: 41px;
+    margin-top: -63px;
+    position: relative;
+    z-index: 2;
+    color: #8995b3;
+}
+
 .page-form form textarea {
-    width: 514px;
-    height: 160px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
+    width: 500px;
+    height: 130px;
     border-radius: 35px;
     background-color: #fff;
-    border: solid 2px rgba(72, 72, 72, .1);
+    border: solid 2px #dce4ec;
     text-indent: 30px;
-    text-size-adjust: 100px;
-    padding-top: 20px;
+    padding: 25px 0 0 10px;
     display: block;
+    font-weight: 400;
+    font-size: 14px;
+    resize: none;
+    margin-bottom: 40px;
 }
 
 .page-form form button {
     width: 230px;
     height: 60px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 30px;
     background-color: #1085e4;
     color: #fff;
@@ -1221,12 +1261,44 @@ a {
     font-size: 12px;
     font-weight: 700;
     border: 0;
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-form form button span {
+    padding-right: 5px;
+}
+
+.page-form form button:hover {
+    border: 2px solid #1085e4;
+    background-color: #fff;
+    color: #1085e4;
+}
+
+.footer {
+    background-color: #192b59;
+}
+
+.footer>.wrap>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.footer ul a {
+    color: #fff;
 }
 
 .footer p {
     font-size: 16px;
     font-weight: 400;
     color: #b6bae0;
+    margin: 0;
 }
 
 .footer p a {
@@ -1234,6 +1306,11 @@ a {
     font-weight: 400;
     color: #1085e4;
     text-transform: uppercase;
+}
+
+.footer ul {
+    display: flex;
+    gap: 25px;
 }
 
 .footer li {
